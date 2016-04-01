@@ -1,5 +1,8 @@
-Templicated Gulp
+Gulp Templicated
 ================
+
+[![NPM version](https://img.shields.io/npm/v/gulp-templicated.svg?style=flat-square)](https://www.npmjs.com/package/gulp-templicated)
+[![License](https://img.shields.io/npm/l/gulp-templicated.svg?style=flat-square)](https://github.com/maraisr/gulp-templicated/blob/master/LICENSE.md)
 
 Wrapper for [Templicated](https://github.com/maraisr/templicated).
 
