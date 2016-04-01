@@ -26,6 +26,6 @@ gulp.task('default', function() {
 ```
 
 ## License
-[GPL-2.0](https://github.com/maraisr/templicated/blob/master/LICENSE.md)
+[GPL-2.0](https://github.com/maraisr/gulp-templicated/blob/master/LICENSE.md)
 
 Copyright(c) 2016 Marais Rossouw
