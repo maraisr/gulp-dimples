@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/maraisr/gulp-templicated#readme",
   "dependencies": {
-    "templicated": "0.0.6",
+    "templicated": "0.0.7",
     "through2": "^2.0.1"
   }
 }
