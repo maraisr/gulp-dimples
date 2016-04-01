@@ -1,0 +1,31 @@
+{
+  "name": "gulp-templicated",
+  "version": "0.0.1",
+  "description": "A build step that manages Jade templates for use in JavaScript applications.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maraisr/gulp-templicated.git"
+  },
+  "keywords": [
+    "gulp",
+    "templicated",
+    "jade",
+    "templates",
+    "template",
+    "management",
+    "template"
+  ],
+  "author": "Marais Rossouw",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/maraisr/gulp-templicated/issues"
+  },
+  "homepage": "https://github.com/maraisr/gulp-templicated#readme",
+  "dependencies": {
+    "templicated": "0.0.6"
+  }
+}
