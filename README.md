@@ -11,7 +11,7 @@ Wrapper for [Templicated](https://github.com/maraisr/templicated).
 npm i gulp-templicated --save-dev
 ```
 
-#### Example
+### Example
 ```JavaScript
 var gulp = require('gulp'),
 	templicated = require('gulp-templicated');
