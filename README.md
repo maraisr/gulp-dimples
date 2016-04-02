@@ -7,12 +7,14 @@ Gulp Templicated
 Wrapper for [Templicated](https://github.com/maraisr/templicated).
 
 ## Installation
+via [npm](https://www.npmjs.com/)
+
 ```sh
 npm i gulp-templicated --save-dev
 ```
 
 ### Example
-```JavaScript
+```js
 var gulp = require('gulp'),
 	templicated = require('gulp-templicated');
 
