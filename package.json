@@ -1,6 +1,6 @@
 {
   "name": "gulp-dimples",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "A build step that manages Jade templates for use in JavaScript applications.",
   "main": "dist/index.js",
   "scripts": {
