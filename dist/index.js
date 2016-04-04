@@ -1,9 +1,9 @@
 var through = require('through2'),
 	gutil = require('gulp-util'),
 	PluginError = gutil.PluginError,
-	t = require('templicated');
+	t = require('dimples');
 
-const PLUGIN_NAME = 'gulp-templicated';
+const PLUGIN_NAME = 'gulp-dimples';
 
 module.exports = function(options) {
 
@@ -17,14 +17,14 @@ module.exports = function(options) {
 			return cb(null, file);
 		}
 
-		var templated = (new t.Templicated(file.contents, options));
+		var dimples = (new t.Dimples(file.contents, options));
 
 		if (file.isBuffer()) {
-			file.contents = templated.compile();
+			file.contents = dimples.compile();
 		}
 
 		if (file.isStream()) {
-			file.contents.pipe(through().write(templated.code));
+			file.contents.pipe(through().write(dimples.code));
 		}
 
 		cb(null, file);

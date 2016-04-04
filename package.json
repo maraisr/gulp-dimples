@@ -1,5 +1,5 @@
 {
-  "name": "gulp-templicated",
+  "name": "gulp-dimples",
   "version": "0.0.9",
   "description": "A build step that manages Jade templates for use in JavaScript applications.",
   "main": "dist/index.js",
@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maraisr/gulp-templicated.git"
+    "url": "git+https://github.com/maraisr/gulp-dimples.git"
   },
   "keywords": [
     "gulp",
-    "templicated",
+    "dimples",
     "jade",
     "templates",
     "template management"
@@ -20,11 +20,11 @@
   "author": "Marais Rossouw",
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/maraisr/gulp-templicated/issues"
+    "url": "https://github.com/maraisr/gulp-dimples/issues"
   },
-  "homepage": "https://github.com/maraisr/gulp-templicated#readme",
+  "homepage": "https://github.com/maraisr/gulp-dimples#readme",
   "dependencies": {
-    "templicated": "latest",
+    "dimples": "latest",
     "through2": "^2.0.1"
   }
 }

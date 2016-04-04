@@ -1,26 +1,26 @@
-Gulp Templicated
-================
+Gulp Dimples
+============
 
-[![NPM version](https://img.shields.io/npm/v/gulp-templicated.svg?style=flat-square)](https://www.npmjs.com/package/gulp-templicated)
-[![License](https://img.shields.io/npm/l/gulp-templicated.svg?style=flat-square)](https://github.com/maraisr/gulp-templicated/blob/master/LICENSE.md)
+[![NPM version](https://img.shields.io/npm/v/gulp-dimples.svg?style=flat-square)](https://www.npmjs.com/package/gulp-dimples)
+[![License](https://img.shields.io/npm/l/gulp-dimples.svg?style=flat-square)](https://github.com/maraisr/gulp-dimples/blob/master/LICENSE.md)
 
-Wrapper for [Templicated](https://github.com/maraisr/templicated).
+Wrapper for [Dimples](https://github.com/maraisr/dimples).
 
 ## Installation
 via [npm](https://www.npmjs.com/)
 
 ```sh
-npm i gulp-templicated --save-dev
+npm i gulp-dimples --save-dev
 ```
 
 ### Example
 ```js
 var gulp = require('gulp'),
-	templicated = require('gulp-templicated');
+	dimples = require('gulp-dimples');
 
 gulp.task('default', function() {
 	return gulp.src('app.js')
-		.pipe(templicated({
+		.pipe(dimples({
 			views: './views/'
 		}))
 		.pipe(gulp.dest('output'));
@@ -28,6 +28,6 @@ gulp.task('default', function() {
 ```
 
 ## License
-[GPL-2.0](https://github.com/maraisr/gulp-templicated/blob/master/LICENSE.md)
+[GPL-2.0](https://github.com/maraisr/gulp-dimples/blob/master/LICENSE.md)
 
 Copyright(c) 2016 Marais Rossouw
