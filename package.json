@@ -15,8 +15,7 @@
     "templicated",
     "jade",
     "templates",
-    "template management",
-    "template"
+    "template management"
   ],
   "author": "Marais Rossouw",
   "license": "GPL-2.0",
@@ -25,7 +24,7 @@
   },
   "homepage": "https://github.com/maraisr/gulp-templicated#readme",
   "dependencies": {
-    "templicated": "0.1.0",
+    "templicated": "latest",
     "through2": "^2.0.1"
   }
 }
