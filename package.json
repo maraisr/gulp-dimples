@@ -1,6 +1,6 @@
 {
   "name": "gulp-templicated",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A build step that manages Jade templates for use in JavaScript applications.",
   "main": "dist/index.js",
   "scripts": {
