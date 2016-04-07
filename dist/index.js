@@ -20,7 +20,7 @@ module.exports = function(options) {
 		var dimples = (new t.Dimples(file.contents, options));
 
 		if (file.isBuffer()) {
-			file.contents = dimples.compile();
+			file.contents = dimples.buffer;
 		}
 
 		if (file.isStream()) {
